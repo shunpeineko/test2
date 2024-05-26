@@ -67,6 +67,7 @@ if "D" not in st.session_state:
     st.session_state.ND2 = list(D2)
     st.session_state.point = st.session_state.idx = 0
     speaktext("始めます。")
+    st.write("こんにちは")
     ask()
 
 
