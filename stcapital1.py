@@ -4,7 +4,7 @@ import pandas as pd
 import time
 import random
 import os,base64
-import gtts, #playsound
+import gtts
 
 def soundautoplay(audiofile):
     audio_placeholder = st.empty()
